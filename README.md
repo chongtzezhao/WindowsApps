@@ -21,4 +21,7 @@ This app runs as a background process. It has 3 features.
 ## MouseDisplayOff (Autohotkey)
 
 ### !!User Warning!! Disclaimer: This application has not been tested on various devices and could cause bugs. Use at your own risk.
+
+(This application was inspired by and adapted from Mr Koh's C# variant. You can check out his code [here](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/screenoff_mouse_pos)) 
+
 (Under construction)
