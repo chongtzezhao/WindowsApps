@@ -20,4 +20,5 @@ This app runs as a background process. It has 3 features.
 
 ## MouseDisplayOff (Autohotkey)
 
+### !!User Warning!! Disclaimer: This application has not been tested on various devices and could cause bugs. Use at your own risk
 (Under construction)
