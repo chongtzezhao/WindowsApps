@@ -11,7 +11,7 @@ None [for now ;)]
 
 ## AutoSleep (C#, .NET CORE)
 
-**Backgroun Story:** My laptop refused to go to sleep on timer. It had to be done manually, which caused my battery to drain quickly in the times that I forgot. So after running an energy report (using "powercfg /energy") I discovered that it was my speaker's drivers that was preventing my laptop from sleeping. Since my laptop was already past it's warranty, why not have some fun? ? :)
+**Background story:** My laptop refused to go to sleep on timer. It had to be done manually, which caused my battery to drain quickly in the times that I forgot. So after running an energy report (using "powercfg /energy") I discovered that it was my speaker's drivers that was preventing my laptop from sleeping. Since my laptop was already past it's warranty, why not have some fun? ? :)
 
 This app runs as a background process. It has 3 features.
 1. Goes to sleep after 10 minutes withou user interaction.
@@ -20,5 +20,5 @@ This app runs as a background process. It has 3 features.
 
 ## MouseDisplayOff (Autohotkey)
 
-### !!User Warning!! Disclaimer: This application has not been tested on various devices and could cause bugs. Use at your own risk
+### !!User Warning!! Disclaimer: This application has not been tested on various devices and could cause bugs. Use at your own risk.
 (Under construction)
