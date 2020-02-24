@@ -6,7 +6,10 @@ This repository contains features or fixes that I felt could complement one's us
 None [for now ;)]
 
 ## BackgroundApps
-1. [AutoSleep](#1.-AutoSleep-(C#,-.NET-CORE))
+1. [AutoSleep](#AutoSleep-(C#,-.NET-CORE)) [AutoSleep](view repo)
+2. [MouseDisplayOff](#MouseDisplayOff-(Autohotkey))
 
-## 1. AutoSleep (C#, .NET CORE)
+## AutoSleep (C#, .NET CORE)
+
+## MouseDisplayOff (Autohotkey)
 
