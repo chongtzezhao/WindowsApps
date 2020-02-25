@@ -3,30 +3,27 @@
 #SingleInstance
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-CoordMode, Mouse, Screen; Sets the Mouse value to absolute coor on screen
+
 On := 1
 ; PREVX := -1
 ; PREVY := -1
+CoordMode, Mouse, Screen ; Sets the Mouse value to absolute coor on screen
 
 loop{
 	
-	SysGet, MCount, MonitorPrimary
-	SysGet, Msize, Monitor
-	MAXX := MsizeRight-5
-	MAXY := MsizeBottom-5
-		
+	SysGet, Msize, Monitor ; Gets monitor screensize
+	MAXX := MsizeRight-1
+	MAXY := MsizeBottom-1
 	MouseGetPos, x, y
-
-	;MsgBox, %x%, %y% Purely for debugging purpose
+	
+	; MsgBox, %x%, %y%, %MAXX%, %MAXY% ; Debugging purposes
+	; Sleep 1000 ; Debugging purposes
 
 	if(On>0) ; Display is On 
 	{
-		; MsgBox, %x%, " ", %y%
-		; Sleep 2000
 		if (x>=MAXX && y>=MAXY) ; User triggers display to turn off
 		{
-			PREVX := x
-			PREVY := y
+			; MsgBox, Screen is Off ; Debugging purposes
 			SendMessage, 0x112, 0xF170, 2,, Program Manager
 			On := 0
 		}
@@ -35,6 +32,7 @@ loop{
 	{
 		if(x<MAXX || y<MAXY) ; User moves mouse - triggers display to turn on
 		{
+			; MsgBox, Screen is On ; Debugging purposes
 			On := 1
 		}
 	}
