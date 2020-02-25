@@ -10,10 +10,15 @@ Bug fixes - app now works on all window sizes. Contributed by [Mr Koh](https://g
 
 v 0.2.1
 Minor bug fix - comment caused interpreter to not recognise command to set mouse to absolute
+
   Before
+  
   ` CoordMode, Mouse, Screen; Sets the Mouse value to absolute coor on screen `
+  
   After
+  
   ` CoordMode, Mouse, Screen ; Sets the Mouse value to absolute coor on screen `
+  
 Added more comments to make the code clearer
 
 
