@@ -8,6 +8,7 @@ None [for now ;)]
 ## BackgroundApps
 1. [AutoSleep](#AutoSleep-(C#,-.NET-CORE)) [view repo](AutoSleep)
 2. [MouseDisplayOff](#MouseDisplayOff-(Autohotkey)) [view repo](MouseDisplayOff)
+3. [AlwaysOn](#AlwaysOn-(Autohotkey)) [view repo](AlwaysOn)
 
 ## AutoSleep (C#, .NET CORE)
 
@@ -22,6 +23,12 @@ This app runs as a background process. It has 3 features.
 
 ### !!User Warning!! Disclaimer: This application has not been tested on various devices and could cause bugs. Use at your own risk.
 
+Background process that allows user to turn screen off by moving mouse to bottom right of the screen.
+
 (This application was inspired by and adapted from Mr Koh's C# variant. You can check out his code [here](https://github.com/Kennethkcpdhs/functiona1-windows/tree/master/screenoff_mouse_pos)) 
 
-(Under construction)
+## AlwaysOn (Autohotkey)
+
+Background process that enables some keyboard shortcuts.
+
+Example of a ahk script
