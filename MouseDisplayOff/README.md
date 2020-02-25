@@ -21,4 +21,6 @@ Minor bug fix - comment caused interpreter to not recognise command to set mouse
   
 Added more comments to make the code clearer
 
+v 0.3.0
+Minor optimization to decrease CPU usage from 3-10% to 0%
 
