@@ -36,4 +36,5 @@ loop{
 			On := 1
 		}
 	}
+	Sleep 25
 }
