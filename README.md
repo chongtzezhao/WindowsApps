@@ -9,6 +9,7 @@ None [for now ;)]
 1. [AutoSleep](#AutoSleep-(C#,-.NET-CORE)) [view repo](AutoSleep)
 2. [MouseDisplayOff](#MouseDisplayOff-(Autohotkey)) [view repo](MouseDisplayOff)
 3. [AlwaysOn](#AlwaysOn-(Autohotkey)) [view repo](AlwaysOn)
+4. [BrightnessControl](#BrightnessControl-(Autohotkey)) [view repo](BrightnessControl)
 
 ## AutoSleep (C#, .NET CORE)
 
@@ -32,3 +33,9 @@ Background process that allows user to turn screen off by moving mouse to bottom
 Background process that enables some keyboard shortcuts.
 
 Example of a ahk script
+
+## BrightnessControl (Autohotkey)
+
+Allows user to control screen brightness with mouse and keyboard shortcuts.
+
+Hold down "Esc" or "CapsLock" key and scroll mouse wheel up and down to increase and decrease brightness.
